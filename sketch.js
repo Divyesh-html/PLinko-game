@@ -57,7 +57,7 @@ function draw() {
   Engine.update(engine);
   ground.display();
   if(frameCount%60===0){
-    Particle.push( new Particles(random(width/2-10, width/2+10), 10,10))
+    particles.push( new Particles(random(width/2-10, width/2+10), 10,10))
   }
   
   //display the plinkos 
