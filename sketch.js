@@ -69,7 +69,7 @@ function draw() {
   for (var k = 0; k < divisions.length; k++) {
     divisions[k].display();
   }
-
+for(var j=0; j<particles.length;j++) { particles[j].display(); }
   //display the paricles 
 Particle.display()
 }
